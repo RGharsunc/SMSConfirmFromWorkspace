@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vardan.smsconfirm.IntentActivity">
+
+    <TextView
+        android:id="@+id/receivedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sharedText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="@string/intActReceivedText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sharedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intActSharedText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="@id/receivedText"
+        app:layout_constraintLeft_toLeftOf="@id/receivedText"
+        app:layout_constraintRight_toRightOf="@id/receivedText"
+        app:layout_constraintTop_toTopOf="@id/receivedText" />
+
+    <Button
+        android:id="@+id/toConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sharedText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorPrimary"
+        android:paddingHorizontal="50dp"
+        android:text="@string/intActConfirmButton" />
+
+    <TextView
+        android:id="@+id/receivedMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sharedText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/intActReceivedMessage" />
+
+
+</RelativeLayout>

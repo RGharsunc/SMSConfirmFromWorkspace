@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SMSConfirm</string>
+    <string name="confActivTitle">Confirm Activity</string>
+    <string name="titleIntentActivity">Intent Activity</string>
+    <string name="popupText">App need your permission to receive SMS to be active, press button to confirm, or deny and close the app </string>
+    <string name="popupButtonTxt">CONFIRM permition</string>
+    <string name="intActReceivedText">Received text</string>
+    <string name="intActSharedText">has no shared text</string>
+    <string name="intActConfirmButton">Get confirmation code</string>
+    <string name="intActReceivedMessage">waiting for message</string>
+    <string name="confActReceivedMessage">waiting for message</string>
+    <string name="confActMessageFromeBroadcast">code for confirmation</string>
+    <string name="confActConfirmCode">Confirm Code</string>
+</resources>
